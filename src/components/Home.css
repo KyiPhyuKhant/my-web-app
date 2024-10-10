@@ -1,0 +1,48 @@
+/* Home.css */
+
+.banner {
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.welcome {
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonials {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.testimonial {
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.icon-list {
+  padding: 20px;
+  text-align: center;
+}
+
+.icon-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.icon-list li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
