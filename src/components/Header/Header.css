@@ -1,0 +1,38 @@
+.mainheader {
+    background-color: #333;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+.mainlogo {
+    width: 20%;
+    float: left;
+}
+.mainlogo img {
+    height: 62px;
+    width: auto;
+    float: left;
+}
+.menu {
+    width: 80%;
+    text-align: right;
+    float: right;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

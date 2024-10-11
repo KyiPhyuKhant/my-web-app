@@ -12,14 +12,13 @@ const Home = () => {
     <div>
       {/* Banner */}
       <div className="banner">
-        <h1>Welcome to Our Website!</h1>
+        <h1>Welcome to My Wep App!</h1>
       </div>
 
       {/* Welcome Paragraph */}
       <div className="welcome">
         <p>
-          We are committed to providing the best service possible. Our team is
-          dedicated to making your experience seamless and enjoyable.
+        A simple web application built with React and Vite, showcasing multiple pages with demo data, including Home, About Us, Contact Us, and Testimonials. A project for learning and experimentation. 
         </p>
       </div>
 
@@ -46,7 +45,7 @@ const Home = () => {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+        <p>&copy; 2024 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, adipisci debitis hic ut nostrum dicta neque tempore deleniti ullam illum. All Rights Reserved.</p>
       </footer>
       
     </div>
