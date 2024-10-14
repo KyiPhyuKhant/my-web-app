@@ -6,6 +6,7 @@ import { testimonials } from "../data.jsx";
 
 const Home = () => {
   return (
+    
     <div>
       {/* Banner */}
       <div className="banner">
@@ -39,7 +40,9 @@ const Home = () => {
           <li><i className="fas fa-check-circle"></i> Affordable Pricing</li>
         </ul>
       </div>
-
+      <div className="min-h-screen bg-blue-100 flex items-center justify-center">
+      <h1 className="text-4xl font-bold text-blue-600">Hello, Tailwind CSS!</h1>
+    </div>
       {/* Footer */}
       <footer className="footer">
         <p>&copy; 2024 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, adipisci debitis hic ut nostrum dicta neque tempore deleniti ullam illum. All Rights Reserved.</p>
