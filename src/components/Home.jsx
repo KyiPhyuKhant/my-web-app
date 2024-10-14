@@ -1,11 +1,8 @@
-import React from "react";
+// import React from "react";
 import "./Home.css";
+import { testimonials } from "../data.jsx";
 
-const testimonials = [
-  { name: "Alice", text: "This is the best service I've ever used!" },
-  { name: "Alice", text: "This is the best service I've ever used!" },
-  { name: "Alice", text: "This is the best service I've ever used!" },
-];
+
 
 const Home = () => {
   return (
@@ -24,10 +21,10 @@ const Home = () => {
 
       {/* Testimonials Section */}
       <div className="testimonials">
-        <h2>What Our Clients Say</h2>
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial">
-            <p>"{testimonial.text}"</p>
+            <p>{testimonial.text}</p>
             <p>-{testimonial.name}</p>
           </div>
         ))}

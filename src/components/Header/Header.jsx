@@ -1,4 +1,4 @@
-import React from "react";
+
 import logoImg from "../../components/Header/react-core-concepts.png";
 import { Link } from "react-router-dom";
 import "../../App.css";
