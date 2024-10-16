@@ -10,13 +10,13 @@ export const testimonials = [
 
 export const EXPERIENCES = {
     water: {
-        title: 'Components',
+        title: 'Wordpress Developer (2023-2024)',
         description:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
         code: ``,
     },
     sugar: {
-        title: 'JSX',
+        title: 'Web Front-End Developer (2021-2023)',
         description:
             'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
         code: ``,

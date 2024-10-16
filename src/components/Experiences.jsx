@@ -18,7 +18,7 @@ export default function Experiences() {
                         onClick={() => toggleAccordion('water')}
                         className="w-full text-left px-4 py-2 bg-gray-100 hover:bg-gray-200 focus:outline-none"
                     >
-                        <span className="text-lg font-semibold">Water</span>
+                        <span className="text-lg font-semibold">Wordpress Developer (2023-2024)</span>
                     </button>
                     {expandedTopic === 'water' && (
                         <div className="p-4 bg-white border-t border-gray-300">
@@ -37,7 +37,7 @@ export default function Experiences() {
                         onClick={() => toggleAccordion('sugar')}
                         className="w-full text-left px-4 py-2 bg-gray-100 hover:bg-gray-200 focus:outline-none"
                     >
-                        <span className="text-lg font-semibold">Sugar</span>
+                        <span className="text-lg font-semibold">Web Front-End Developer (2021-2023)</span>
                     </button>
                     {expandedTopic === 'sugar' && (
                         <div className="p-4 bg-white border-t border-gray-300">
