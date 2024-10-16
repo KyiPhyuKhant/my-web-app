@@ -8,7 +8,7 @@ export const testimonials = [
 ];
 
 
-export const EXAMPLES = {
+export const EXPERIENCES = {
     water: {
         title: 'Components',
         description:

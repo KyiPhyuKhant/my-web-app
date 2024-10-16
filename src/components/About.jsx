@@ -1,5 +1,5 @@
 import aboutImg from "./Header/react-core-concepts.png";
-import Examples from "./Examples.jsx";
+import Experiences from "./Experiences.jsx";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
         </div>
       </div>
 
-      <Examples />
+      <Experiences />
     </>
   )
 };
