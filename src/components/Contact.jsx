@@ -1,4 +1,5 @@
 import "./Contact.css";
+import Player from './Player.jsx';
 
 const Contact = () => {
   return (
@@ -9,9 +10,10 @@ const Contact = () => {
 
       <div id="game-container">
         <ol id="players">
-          <li><span>Player 1</span></li>
-          <li><span>Player 2</span></li>
+          <Player name="Player 1" symbol="X" />
+          <Player name="Player 2" symbol="O" />
         </ol>
+        Game Board
       </div>
     </>
   );
