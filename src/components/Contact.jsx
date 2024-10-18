@@ -1,11 +1,19 @@
-
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact Us</h1>
-      <p>Get in touch with us!</p>
-    </div>
+    <>
+      <div className="banner">
+        <h1>Contact Banner</h1>
+      </div>
+
+      <div id="game-container">
+        <ol id="players">
+          <li><span>Player 1</span></li>
+          <li><span>Player 2</span></li>
+        </ol>
+      </div>
+    </>
   );
 };
 
