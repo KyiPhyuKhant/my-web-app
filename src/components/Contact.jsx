@@ -1,8 +1,12 @@
 import "./Contact.css";
 import Player from './Player.jsx';
 import GameBoard from "./GameBoard.jsx";
+// import { useState } from "react";
 
 const Contact = () => {
+
+  // const [activePlayer, setActivePlayer] = useState('X');
+
   return (
     <>
       <div className="banner">
