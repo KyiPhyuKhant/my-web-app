@@ -23,8 +23,8 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="text-white-700 hover:text-blue-600 transition">
-                Contact Me
+              <Link to="/game" className="text-white-700 hover:text-blue-600 transition">
+                Game
               </Link>
             </li>
           </ul>
