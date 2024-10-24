@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Contact.css";
+import "./Game.css";
 import Player from './Player.jsx';
 import GameBoard from "./GameBoard.jsx";
 import GameOver from "./GameOver.jsx";
@@ -82,11 +82,11 @@ const Contact = () => {
     });
   }
 
-  function handleRestart(){
+  function handleRestart() {
     setGameTurns([]);
   }
 
-  function handlePlayerNameChange(symbol, newName){
+  function handlePlayerNameChange(symbol, newName) {
     setPlayers(prevPlayers => {
       return {
         ...prevPlayers,
