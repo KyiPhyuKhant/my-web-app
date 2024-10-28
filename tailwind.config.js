@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}", // This tells Tailwind to look for class names in these files
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        title: ['"Pacifico"', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
