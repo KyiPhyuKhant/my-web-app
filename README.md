@@ -40,3 +40,8 @@ Future Improvements
 License
 
 This project is licensed under the MIT License. 
+
+
+Branches
+
+The main branch contains the core project overview and base code, while other branches are dedicated to practicing concepts and techniques learned from a Udemy course on React and Vite.
